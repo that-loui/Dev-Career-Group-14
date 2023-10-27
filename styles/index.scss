@@ -1,0 +1,18 @@
+@import '../scss/reset/reset';
+@import '../scss/variables/variables';
+// style for matching header for all pages 
+@import '../scss/components/header';
+// style for matching footer for all pages 
+@import '../scss/components/footer';
+// styles for other pages for now
+@import '../scss/pages/homePage';
+@import '../scss/pages/about';
+@import '../scss/pages/contact';
+
+
+// Normal styles go here
+
+
+// styles for screen sizes
+@import '../scss/screens/tablet';
+@import '../scss/screens/desktop';
