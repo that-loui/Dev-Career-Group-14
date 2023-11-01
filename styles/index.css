@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Lexend:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Lexend:wght@100;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  color: #ececec;
+}
+
+a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.container {
+  width: 85%;
+}
+
+.active {
+  color: #BB00B4;
+}
+
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top, #590455, #121212);
+  height: 500px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 76px;
+}
+.navigation .logoContainer {
+  width: 35%;
+  height: 50px;
+  justify-self: start;
+}
+.navigation .logoContainer .logo {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/icons/logo.svg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navigation nav {
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  width: 85%;
+  font-family: "Aleo", serif;
+}
+
+.navContainer ul {
+  display: flex;
+  align-items: center;
+}
+.navContainer ul li {
+  padding: 0 25px;
+}
+
+.userItems ul {
+  display: flex;
+  align-items: center;
+}
+.userItems ul li {
+  padding: 0 10px;
+}

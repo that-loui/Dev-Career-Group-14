@@ -1,17 +1,23 @@
 @import '../scss/reset/reset';
 @import '../scss/variables/variables';
-// style for matching header for all pages 
-@import '../scss/components/header';
-// style for matching footer for all pages 
+// style for matching header for all pages
+
+// Normal styles go here
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top, $primary-color, $text-color);
+  height: 500px;
+}
+@import '../scss/components/nav';
+// style for matching footer for all pages
 @import '../scss/components/footer';
 // styles for other pages for now
 @import '../scss/pages/homePage';
 @import '../scss/pages/about';
-@import '../scss/pages/contact';
-
-
-// Normal styles go here
-
+@import '../scss/pages/shop';
 
 // styles for screen sizes
 @import '../scss/screens/tablet';
