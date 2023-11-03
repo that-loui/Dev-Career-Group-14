@@ -1,3 +1,131 @@
-@media(min-width:480px ){
+@media (min-width: 560px) {
+  .headerMain {
+    .headerHero {
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 30px;
+      }
+      .enrollBtn {
+        width: 35%;
+      }
+    }
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    height: 76px;
 
+    .logoContainer {
+      width: 8rem;
+      height: 55px;
+      justify-self: start;
+      .logo {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .ham-b {
+      display: none;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      justify-self: flex-end;
+      width: 95%;
+      font-family: $font-2;
+      a:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .navContainer {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        a {
+          margin: 0 25px;
+        }
+      }
+    }
+  }
+  .userItems {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        padding: 0 10px;
+      }
+    }
+  }
+  .mainHomepage {
+    .videoContainer {
+      height: 550px;
+    }
+  }
+  .homepageShowcase {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .register {
+    grid-template-columns: 1fr 1fr;
+  }
+  .registerText {
+    align-items: flex-start;
+  }
+  .time {
+    h1 {
+      color: $text-color-2;
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  .registerForm {
+    width: 50%;
+  }
+  .mainAbout {
+    h2 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+  .dropdown {
+    .dropdownBtn {
+      display: none;
+    }
+    .content {
+      display: flex;
+
+    }
+  }
+  .categoriesContainer{
+    flex-direction: column;
+    .category{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+  .footerLinksContainer {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  .socialsContainer {
+    .socialContainer {
+      flex-direction: row;
+    }
+  }
+  .socials {
+    ul {
+      li {
+        padding: 0 $space-2;
+      }
+    }
+  }
 }

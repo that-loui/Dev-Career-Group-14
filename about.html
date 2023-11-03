@@ -9,14 +9,22 @@
     <!-- fonts -->
   </head>
   <body>
-    <header class="headerMain">
-      <div class="navigation container">
+    <header class="headerAbout flex">
+      <div class="navigation container flex aboutNav">
         <!-- Logo -->
         <div class="logoContainer">
-          <a href="#"><img src="./assets/icons/logo.svg" alt="logo" class="logo"></a>
+          <a href="./index.html"
+            ><img src="./assets/icons/logo.svg" alt="logo" class="logo"
+          /></a>
         </div>
+        <!-- hamburger btn -->
+        <button class="ham-b">
+          <div class="btn btn-1"></div>
+          <div class="btn btn-2"></div>
+          <div class="btn btn-3"></div>
+        </button>
         <!-- nav links -->
-        <nav class="">
+        <nav class="menu">
           <div class="navContainer">
             <ul>
               <li><a href="./index.html">Home</a></li>
@@ -27,17 +35,114 @@
           <div class="userItems">
             <ul>
               <li>
-                <a href="#"><img src="./assets/icons/user.svg" alt="user"></a>
+                <a href="#"><img src="./assets/icons/user.svg" alt="user" /></a>
               </li>
               <li>
-                <a href="#"><img src="./assets/icons/cart.svg" alt="cart" class="cart"></a>
+                <a href="#"
+                  ><img src="./assets/icons/cart.svg" alt="cart" class="cart"
+                /></a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="container mainAbout flex">
+      <h2>MEET OUR AMAZING TEAM</h2>
+      <p>
+        we believe that beauty is an art form, and every individual deserves to
+        feel confident and empowered in their own unique skin. Our makeup
+        website is dedicated to bringing you a comprehensive range of services,
+        top-quality makeup products, and an enriching beauty school experience,
+        all designed to elevate your beauty journey to new heights.
+      </p>
+      <img src="./assets/img/image 35.png" alt="" />
+    </main>
+    <footer class="footerMain">
+      <section class="footerLinksContainer container">
+        <div class="footerLogoContainer">
+          <a href="./index.html"
+            ><img
+              src="./assets/icons/footerLogo.svg"
+              alt="logo"
+              class="footerLogo"
+          /></a>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Company</h4>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Partners</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Resources</h4>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Social</h4>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Legal</h4>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cookies</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="socialsContainer">
+        <div class="container socialContainer">
+          <div class="copyright">
+            <p>© 2023 House of Rossy. All rights reserved.</p>
+          </div>
+          <div class="socials">
+            <ul>
+              <li>
+                <img
+                  src="./assets/icons/instagram-icon.svg"
+                  alt="instagramLogo"
+                />
+              </li>
+              <li>
+                <img src="./assets/icons/twitter-icon.svg" alt="twitterLogo" />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/linkedin-icon.svg"
+                  alt="linkedInLogo"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/facebook-icon.svg"
+                  alt="facebookLogo"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/whatsapp-icon.svg"
+                  alt="whatsAppLogo"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

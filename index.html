@@ -9,14 +9,22 @@
     <!-- fonts -->
   </head>
   <body>
-    <header class="headerMain">
-      <div class="navigation container">
+    <header class="headerMain flex">
+      <div class="navigation container flex">
         <!-- Logo -->
         <div class="logoContainer">
-          <a href="#"><img src="./assets/icons/logo.svg" alt="logo" class="logo"></a>
+          <a href="./index.html"
+            ><img src="./assets/icons/logo.svg" alt="logo" class="logo"
+          /></a>
         </div>
+        <!-- hamburger btn -->
+        <button class="ham-b flex">
+          <div class="btn btn-1"></div>
+          <div class="btn btn-2"></div>
+          <div class="btn btn-3"></div>
+        </button>
         <!-- nav links -->
-        <nav class="">
+        <nav class="menu">
           <div class="navContainer">
             <ul>
               <li><a href="./index.html" class="active">Home</a></li>
@@ -27,17 +35,205 @@
           <div class="userItems">
             <ul>
               <li>
-                <a href="#"><img src="./assets/icons/user.svg" alt="user"></a>
+                <a href="#"><img src="./assets/icons/user.svg" alt="user" /></a>
               </li>
               <li>
-                <a href="#"><img src="./assets/icons/cart.svg" alt="cart" class="cart"></a>
+                <a href="#"
+                  ><img src="./assets/icons/cart.svg" alt="cart" class="cart"
+                /></a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
+      <section class="headerHero">
+        <h1>Enroll today at our premier beauty school</h1>
+        <p>Embrace your beauty journey</p>
+        <button class="enrollBtn"><p>Enroll</p></button>
+      </section>
+      <img
+        src="./assets/icons/homepae-hero-1.svg"
+        alt=""
+        class="heroImg1"
+      /><img src="./assets/icons/homepage-hero-2.svg" alt="" class="heroImg2" />
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="mainHomepage flex">
+      <section class="homepageHero">
+        <div class="videoContainer">
+          <div class="video flex">
+            <img src="./assets/icons/playbtn.svg" alt="play button" />
+            <p style="margin: 10px 0 0 0">Unlock your beauty potentials</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="homepageShowcase container grid">
+        <div class="showcaseCard flex">
+          <img
+            src="./assets/img/showcase1.png"
+            alt="makeup tips"
+            class="cardImg"
+          />
+          <p class="cardText">Beauty tips and tricks (1)</p>
+          <button class="cardBtn">Explore</button>
+        </div>
+        <div class="showcaseCard flex">
+          <img
+            src="./assets/img/showcase2.png"
+            alt="makeup tips"
+            class="cardImg"
+          />
+          <p class="cardText">Beauty tips and tricks (2)</p>
+          <button class="cardBtn">Explore</button>
+        </div>
+        <div class="showcaseCard flex">
+          <img
+            src="./assets/img/showcase3.png"
+            alt="makeup tips"
+            class="cardImg"
+          />
+          <p class="cardText">Beauty tips and tricks (3)</p>
+          <button class="cardBtn">Explore</button>
+        </div>
+      </section>
+      <section class="register grid">
+        <div class="registerText flex">
+          <div class="textContainer">
+            <h3>Register Now</h3>
+            <h2>Get 30% OFF</h2>
+          </div>
+          <div class="timeContainer flex">
+            <div class="time day">
+              <h1>05</h1>
+              <h2>Days</h2>
+            </div>
+            <div class="time hour">
+              <h1>09</h1>
+              <h2>Hours</h2>
+            </div>
+            <div class="time minute">
+              <h1>38</h1>
+              <h2>Minutes</h2>
+            </div>
+            <div class="time second">
+              <h1>60</h1>
+              <h2>Seconds</h2>
+            </div>
+          </div>
+        </div>
+        <form class="registerForm flex">
+          <h1>Create account</h1>
+          <div class="formGroup flex">
+            <label for="text">Name</label>
+            <input type="text" id="text" placeholder="Your Name" />
+          </div>
+          <div class="formGroup flex">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="formGroup flex">
+            <label for="number">Phone number</label>
+            <input
+              type="tel"
+              name="number"
+              id="number"
+              placeholder="Your Phone Number"
+            />
+          </div>
+          <input type="submit" value="Register" class="submit" />
+        </form>
+      </section>
+    </main>
+    <footer class="footerMain">
+      <section class="footerLinksContainer container">
+        <div class="footerLogoContainer">
+          <a href="./index.html"
+            ><img
+              src="./assets/icons/footerLogo.svg"
+              alt="logo"
+              class="footerLogo"
+          /></a>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Company</h4>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Partners</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Resources</h4>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Social</h4>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="linkContainer">
+          <ul>
+            <h4>Legal</h4>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cookies</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="socialsContainer">
+        <div class="container socialContainer">
+          <div class="copyright">
+            <p>© 2023 House of Rossy. All rights reserved.</p>
+          </div>
+          <div class="socials">
+            <ul>
+              <li>
+                <img
+                  src="./assets/icons/instagram-icon.svg"
+                  alt="instagramLogo"
+                />
+              </li>
+              <li>
+                <img src="./assets/icons/twitter-icon.svg" alt="twitterLogo" />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/linkedin-icon.svg"
+                  alt="linkedInLogo"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/facebook-icon.svg"
+                  alt="facebookLogo"
+                />
+              </li>
+              <li>
+                <img
+                  src="./assets/icons/whatsapp-icon.svg"
+                  alt="whatsAppLogo"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

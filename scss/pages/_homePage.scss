@@ -1,0 +1,155 @@
+.headerMain {
+  background: $background1;
+  position: relative;
+  flex-direction: column;
+  .headerHero {
+    padding: 70px 0 70px 0;
+    text-align: center;
+    h1 {
+      font-size: 28px;
+      word-wrap: break-word;
+      width: 65%;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 15px;
+      margin: 15px 0;
+      font-weight: 200;
+    }
+    .enrollBtn {
+      font-family: $font-2;
+      color: $secondary-color;
+      background-color: $primary-color;
+      border: none;
+      border-radius: 10px;
+      width: 25%;
+      &:hover {
+        box-shadow: $Shadow;
+      }
+    }
+  }
+  .heroImg1,
+  .heroImg2 {
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+  }
+  .heroImg1 {
+    left: 0;
+  }
+  .heroImg2 {
+    right: 0;
+  }
+}
+.mainHomepage {
+  flex-direction: column;
+  .homepageHero {
+    width: 100%;
+  }
+}
+
+.videoContainer {
+  background-image: url(../assets/img/homepage-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  .video {
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ae00ee39, #b000ee26);
+    height: 100%;
+    width: 100%;
+    p {
+      font-weight: 400;
+    }
+  }
+}
+.homepageShowcase {
+  padding: 40px 0;
+  grid-template-columns: 1fr;
+}
+.showcaseCard {
+  flex-direction: column;
+  background-color: $secondary-color;
+  color: $text-color;
+  .cardText {
+    margin: $space-1 0;
+    font-weight: 500;
+  }
+  .cardBtn {
+    width: 60%;
+    border: 1.4px solid $text-color;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin-bottom: $space-1;
+    font-weight: 200;
+  }
+}
+.register {
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 50px 5px;
+  background-color: $text-color;
+}
+.registerText {
+  flex-direction: column;
+  margin: $space-2;
+}
+.textContainer {
+  margin-bottom: $space-1;
+  h3 {
+    margin-bottom: 5px;
+    color: $text-color-2;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+.time {
+  text-align: center;
+  margin-right: $space-1;
+  h1 {
+    color: $text-color-2;
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+.registerForm {
+  flex-direction: column;
+  justify-self: center;
+  h1 {
+    font-size: 2rem;
+  }
+
+  .formGroup {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .submit{
+    align-self: flex-start;
+    padding: 8px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: $text-color-2;
+    color: $secondary-color;
+    margin-top: 10px;
+  }
+}
+.formGroup {
+  label {
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  input {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+}
+@import '../screens/tablet';
+@import '../screens/desktop';

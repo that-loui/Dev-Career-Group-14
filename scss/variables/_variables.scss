@@ -3,8 +3,26 @@
 $primary-color: #590455;
 $secondary-color: #ececec;
 $text-color: #121212;
-$text-color-2: #CD00C5;
+$text-color-2: #cd00c5;
 $font-1: 'Lexend', sans-serif;
 $font-2: 'Aleo', serif;
 $space-1: 15px;
 $space-2: 20px;
+$Shadow: 3px 3px 5px $secondary-color;
+$background1: linear-gradient(to top, #590455, #121212);
+$background2: #241e1e;
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-2;
+}

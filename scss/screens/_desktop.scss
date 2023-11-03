@@ -1,3 +1,20 @@
-@media(min-width:769px){
-    
+@media (min-width: 769px) {
+  .navigation {
+    .logoContainer {
+      width: 10rem;
+    }
+
+    nav {
+      width: 85%;
+    }
+  }
+
+  .mainAbout {
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
 }

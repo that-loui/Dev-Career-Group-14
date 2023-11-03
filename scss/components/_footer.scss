@@ -1,0 +1,47 @@
+.footerMain {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+}
+.footerLinksContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: $text-color;
+  gap: 10px;
+  padding: 50px 0;
+
+  .footerLogoContainer {
+    margin-top: $space-2;
+    width: 65%;
+  }
+}
+.linkContainer {
+  li {
+    padding: 5px 0;
+  }
+  a {
+    color: $text-color;
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}
+.socialsContainer {
+  background-color: $text-color;
+  padding: 20px 0;
+  .socialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .socials {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li{
+        padding: $space-1 $space-2;
+      }
+    }
+  }
+}

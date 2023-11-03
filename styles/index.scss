@@ -3,14 +3,6 @@
 // style for matching header for all pages
 
 // Normal styles go here
-.headerMain {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(to top, $primary-color, $text-color);
-  height: 500px;
-}
 @import '../scss/components/nav';
 // style for matching footer for all pages
 @import '../scss/components/footer';

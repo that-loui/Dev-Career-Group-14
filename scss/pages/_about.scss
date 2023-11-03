@@ -1,0 +1,20 @@
+.headerAbout {
+  flex-direction: column;
+}
+.aboutNav{
+    .menu-active{
+        background: $background2;
+    }
+}
+.mainAbout {
+  flex-direction: column;
+  margin-top: 50px;
+  h2 {
+    font-size: 30px;
+    margin: $space-2 0;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
